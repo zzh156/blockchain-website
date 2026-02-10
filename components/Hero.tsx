@@ -21,7 +21,7 @@ const Hero = () => {
       const progress = step / steps
       
       setStats({
-        tps: Math.floor(progress * 10000),
+        tps: Math.floor(progress * 100000),
         nodes: Math.floor(progress * 1000),
         transactions: Math.floor(progress * 1000000),
       })
